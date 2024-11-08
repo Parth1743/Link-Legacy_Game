@@ -19,7 +19,7 @@ BG_COLOR = (40, 40, 60)
 
 # Set up display with new dimensions
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Nashedi Stand-Point Game")
+pygame.display.set_caption("Link-Legacy Game")
 
 # Font for displaying text
 font = pygame.font.SysFont("arial", 48, bold=True)
@@ -44,7 +44,7 @@ def display_selection_screen(screen):
     screen.fill(BG_COLOR)
     
     # Draw 8-bit nostalgic title
-    title_text = "Stand Point Game"
+    title_text = "Link-Legacy Game"
     title_surface = title_font.render(title_text, True, YELLOW)
     title_rect = title_surface.get_rect(center=(SCREEN_WIDTH // 2, 100))
     screen.blit(title_surface, title_rect)

@@ -83,7 +83,7 @@ The main goal is to form a winning alignment by connecting three nodes in a row,
 ## Future Plans
 
 - **Enhanced Graphics**: Potential migration to Unity for 3D visuals and smoother animations.
-- **Advanced AI**: Implementing a more strategic AI with deeper move prediction.
+- **Advanced AI**: Implementing a more strategic AI opponent with deeper move prediction.
 - **Additional Game Modes**: Multiplayer functionality and new strategic layouts.
 
 ---

@@ -119,7 +119,7 @@ def display_rules_screen(screen):
     """Display the game rules screen."""
     screen.fill(BG_COLOR)
     rules = [
-        "Nashedi Stand-Point Game: Quick Rules",
+        "Link-Legacy Game: Quick Rules",
         "Goal:",
         "- Align three pucks in the top row (T1, T2, T3) or bottom row (B1, B2, B3) to win.",
         "- Alternatively, block all moves of your opponent to win by default.",
@@ -275,7 +275,7 @@ def ai_select_move(game_state):
 
 def play_victory_sound():
     try:
-        pygame.mixer.music.load(r"Copy the path of victory_sound.wav")
+        pygame.mixer.music.load(r"Paste the path of Victory_sound.wav")
         pygame.mixer.music.play()
     except Exception as e:
         print("Error loading sound:", e)
